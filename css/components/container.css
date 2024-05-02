@@ -1,0 +1,29 @@
+.container {
+    width: 700px;
+    margin: 60px auto;
+  }
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: max-content;
+  }
+.container1 h2 {
+  line-height: 9;
+}
+  
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
